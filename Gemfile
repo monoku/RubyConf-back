@@ -5,9 +5,13 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+ruby '2.2.5'
 
 gem 'activeadmin', github: 'activeadmin'
 gem 'inherited_resources', '~> 1.7'
+gem 'bcrypt'
+gem 'bootstrap', '~> 4.0.0.alpha6'
+gem 'tether-rails'
 
 gem 'rspec-rails', '~> 3.0'
 
